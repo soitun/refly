@@ -1375,6 +1375,7 @@ const translations = {
       error: '导出图片失败',
       noNodes: '画布为空，无法导出图片',
     },
+    cycleDetectionError: '工作流暂不支持闭环连线，请检查连线方向',
     launchpad: {
       placeholder: '描述你的需求...',
       chatInputPlaceholder: '输入任务描述，Agent 将生成可复用的工作流',
@@ -4304,6 +4305,7 @@ const translations = {
     perRun: '每次运行',
     viewHistory: '查看历史',
     saveSuccess: '定时任务保存成功',
+    dependencyError: '定时任务设置成功，但工作流存在问题待修复',
     createSuccess: '定时任务创建成功',
     updateSuccess: '定时任务更新成功',
     deleteSuccess: '定时任务删除成功',
